@@ -29,14 +29,14 @@ This is the autoexec that I personally use on CS2. I've designed it to be modula
 ├── autoexec.cfg
 └── /ExecutableCrac
     ├── /Custom
-    │   ├── /LayerKeys
+    │   ├── /LayeredKeys
     │   │   ├── +Example
     │   │   ├── -Example
     │   │   ├── +Alt.cfg
     │   │   ├── -Alt.cfg
     │   │   ├── +Ctrl.cfg
     │   │   └── -Ctrl.cfg
-    │   ├── LayerKeys.cfg
+    │   ├── LayeredKeys.cfg
     │   └── ChatAliases.cfg
     ├── /Info
     │   ├── Contributors.cfg
