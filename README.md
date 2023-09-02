@@ -4,6 +4,7 @@ This is the autoexec that I personally use on CS2. I've designed it to be modula
 
 ## Features
 
+- Jumpthrow alias (`bind KEY jumpthrow`)
 - Layered keys (+-alt, +-ctrl)  
 - Mute toggle  
 - 3-way voice switch (On, quiet, off)  
@@ -14,13 +15,13 @@ This is the autoexec that I personally use on CS2. I've designed it to be modula
 
 1) Download the latest release from the [release tab](https://github.com/ToxiWoxi/ExecutableCrac/releases) OR clone this repository.
 2) Install into a config folder. Leave all files in their folders!
-   - This can be either a user cfg folder (ex: `Steam\userdata\374320225\730\local\cfg`) or the CS2 cfg folder (`<SteamGamesFolder>\Counter-Strike Global Offensive\game\csgo\cfg`).
+    - This can be either a user cfg folder (ex: `Steam\userdata\374320225\730\local\cfg`) or the CS2 cfg folder (`<SteamGamesFolder>\Counter-Strike Global Offensive\game\csgo\cfg`).
 3) Add `+exec autoexec` to your launch options.
-   - If you have more autoexecs that you run, add them to `autoexec.cfg`
+    - If you have more autoexecs that you run, add them to `autoexec.cfg`
 4) Edit `ExecutableCrac/Settings.cfg`.
    - For help with internet settings, look at `ExecutableCrac/Modules/Internet.cfg`.
 5) (optional) if you want to use layered keys, edit the files in `ExecutableCrac/Custom/LayeredKeys`.
-   - I've provided examples (`+example` and `-example`) to show how it works.
+    - I've provided examples (`+example` and `-example`) to show how it works.
 
 ## Folder Structure
 
@@ -43,6 +44,7 @@ This is the autoexec that I personally use on CS2. I've designed it to be modula
     │   └── Version.cfg
     ├── /Modules
     │   ├── Internet.cfg
+    │   ├── JumpThrow.cfg
     │   ├── LocalPractice.cfg
     │   ├── Mute.cfg
     │   └── VoiceSwitch.cfg
