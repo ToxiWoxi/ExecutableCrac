@@ -1,21 +1,23 @@
-////
-// Buy keys (arrows)
-////
+//////
+////    Buy keys (arrows)
+//////
 bind uparrow "buy vest"
 bind downarrow "buy vesthelm"
-bind leftarrow "buy nova"   // Buys the first mid-tier slot
-bind rightarrow "buy ak47"  // Buys the second rifles slot
+bind leftarrow "buy nova"   
+    // Buys the first mid-tier slot
+bind rightarrow "buy ak47"  
+    // Buys the second rifles slot
 
-////
-// Weapon slot keys (number row)
-////
+//////
+////    Weapon slot keys (number row)
+//////
 bind 1 slot1
 bind 2 slot2
 bind 3 slot3
 bind 4 slot4
 bind 5 slot5
 
-////
-// Clear key (q)
-////
+//////
+////    Ping key (q)
+//////
 unbind q

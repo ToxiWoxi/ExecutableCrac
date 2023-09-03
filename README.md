@@ -19,7 +19,7 @@ This is the autoexec that I personally use on CS2. I've designed it to be modula
 3) Add `+exec autoexec` to your launch options.
     - If you have more autoexecs that you run, add them to `autoexec.cfg`
 4) Edit `ExecutableCrac/Settings.cfg`.
-   - For help with internet settings, look at `ExecutableCrac/Modules/Internet.cfg`.
+   - For further help with internet settings, look at `ExecutableCrac/Execs/Internet.cfg`.
 5) (optional) if you want to use layered keys, edit the files in `ExecutableCrac/Custom/LayeredKeys`.
     - I've provided examples (`+example` and `-example`) to show how it works.
 
@@ -39,13 +39,14 @@ This is the autoexec that I personally use on CS2. I've designed it to be modula
     │   │   └── -Ctrl.cfg
     │   ├── LayeredKeys.cfg
     │   └── ChatAliases.cfg
+    ├── /Execs
+    │   ├── Internet.cfg
+    │   ├── JumpThrow.cfg
+    │   └── LocalPractice.cfg
     ├── /Info
     │   ├── Contributors.cfg
     │   └── Version.cfg
     ├── /Modules
-    │   ├── Internet.cfg
-    │   ├── JumpThrow.cfg
-    │   ├── LocalPractice.cfg
     │   ├── Mute.cfg
     │   └── VoiceSwitch.cfg
     ├── Aliases.cfg

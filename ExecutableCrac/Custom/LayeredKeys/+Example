@@ -1,21 +1,21 @@
-////
-// Buy keys (arrows)
-////
+//////
+////    Buy keys (arrows)
+//////
 bind uparrow "buy flashbang"
 bind downarrow "buy molotov"
 bind leftarrow "buy hegrenade"
 bind rightarrow "buy smokegrenade"
 
-////
-// Weapon slot keys (number row)
-////
+//////
+////    Weapon slot keys (number row)
+//////
 bind 1 "slot10" // molly
 bind 2 "slot8"  // smoke
 bind 3 "slot7"  // flash
 bind 4 "slot6"  // he
 bind 5 "slot9"  // decoy
 
-////
-// Clear key (q)
-////
+//////
+////    Ping key (q)
+//////
 bind q player_ping
