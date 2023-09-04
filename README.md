@@ -5,6 +5,7 @@ This is the autoexec that I personally use on CS2. I've designed it to be modula
 ## Features
 
 - Jumpthrow alias (`bind KEY jumpthrow`)
+- Lineup crosshair (`bind KEY +lineup`)
 - Layered keys (+-alt, +-ctrl)  
 - Mute toggle  
 - 3-way voice switch (On, quiet, off)  
@@ -20,7 +21,7 @@ This is the autoexec that I personally use on CS2. I've designed it to be modula
     - If you have more autoexecs that you run, add them to `autoexec.cfg`
 4) Edit `ExecutableCrac/Settings.cfg`.
    - For further help with internet settings, look at `ExecutableCrac/Execs/Internet.cfg`.
-5) (optional) if you want to use layered keys, edit the files in `ExecutableCrac/Custom/LayeredKeys`.
+5) (optional) if you want to use the layered keys and/or crosshair scripts, edit their files in `ExecutableCrac/Custom/LayeredKeys`/`ExecutableCrac/Custom/Crosshairs` and uncomment their lins in `ExecutableCrac/OnLaunch.cfg`.
     - I've provided examples (`+example` and `-example`) to show how it works.
 
 ## Folder Structure
@@ -30,6 +31,9 @@ This is the autoexec that I personally use on CS2. I've designed it to be modula
 ├── autoexec.cfg
 └── /ExecutableCrac
     ├── /Custom
+    │   ├── /Crosshairs
+    │   │   ├── Lineup.cfg
+    │   │   └── Main.cfg
     │   ├── /LayeredKeys
     │   │   ├── +Example
     │   │   ├── -Example
@@ -37,8 +41,9 @@ This is the autoexec that I personally use on CS2. I've designed it to be modula
     │   │   ├── -Alt.cfg
     │   │   ├── +Ctrl.cfg
     │   │   └── -Ctrl.cfg
-    │   ├── LayeredKeys.cfg
-    │   └── ChatAliases.cfg
+    │   ├── ChatAliases.cfg
+    │   ├── Crosshairs.cfg
+    │   └── LayeredKeys.cfg
     ├── /Execs
     │   ├── Internet.cfg
     │   ├── JumpThrow.cfg
