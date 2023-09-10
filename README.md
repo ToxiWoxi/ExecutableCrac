@@ -4,6 +4,7 @@ This is the autoexec that I personally use on CS2. I've designed it to be modula
 
 ## Features
 
+- Fixed jump alias (`+jumpfix`)
 - Jumpthrow alias (`bind KEY jumpthrow`)
 - Lineup crosshair (`bind KEY +lineup`)
 - Layered keys (+-alt, +-ctrl)  
