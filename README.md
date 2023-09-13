@@ -47,7 +47,6 @@ This is the autoexec that I personally use on CS2. I've designed it to be modula
     │   └── LayeredKeys.cfg
     ├── /Execs
     │   ├── Internet.cfg
-    │   ├── Interp.cfg
     │   ├── JumpThrow.cfg
     │   └── LocalPractice.cfg
     ├── /Info
