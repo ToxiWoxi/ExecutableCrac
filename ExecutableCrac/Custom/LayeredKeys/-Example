@@ -5,8 +5,8 @@ bind uparrow "buy vest"
 bind downarrow "buy vesthelm"
 bind leftarrow "buy midtier1"   
     // Buys the first mid-tier slot
-bind rightarrow "buy rifles2"  
-    // Buys the second rifles slot
+bind rightarrow "buy rifle2"  
+    // Buys the second rifle slot
 
 //////
 ////    Weapon slot keys (number row)
