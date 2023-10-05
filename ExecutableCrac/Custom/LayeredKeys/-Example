@@ -3,9 +3,9 @@
 //////
 bind uparrow "buy vest"
 bind downarrow "buy vesthelm"
-bind leftarrow "buy midtier1"   
+bind leftarrow "buy midtier0"   
     // Buys the first mid-tier slot
-bind rightarrow "buy rifle2"  
+bind rightarrow "buy rifle1"  
     // Buys the second rifle slot
 
 //////
